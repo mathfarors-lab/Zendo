@@ -91,7 +91,11 @@ main {
   gap: 10px;
   font-size: 15px;
   font-family: "Times New Roman", Times, serif;
+  transition: 200ms;
   cursor: pointer;
+}
+.cart button:hover{
+  transform: scale(1.1);
 }
 .icon {
   position: absolute;
