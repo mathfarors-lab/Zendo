@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.358);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  width: 450px;
+  background-color: white;
+  border-radius: 60px;
+  overflow: hidden;
+  box-shadow: 10px -10px 15px rgb(0, 0, 0);
+  transition: all 0.5;
+  position: relative;
+}
+.cart:hover {
+  transform: translateY();
+  box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.322);
+
+}
+.cart .image {
+  width: 100%;
+  height: 350px;
+}
+.cart .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cart .profile {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 45%; /* Moves it down from the top */
+  left: 40px;
+}
+.cart .profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 10px white solid;
+  object-fit: cover;
+}
+.name {
+  margin: 70px 60px 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.name i {
+  color: dodgerblue;
+  border-radius: 50%;
+}
+.nickname {
+  color: rgba(128, 128, 128, 0.557);
+  margin: 0px 60px 5px;
+  font-family: serif;
+}
+.lorem {
+  margin: 20px 60px 5px;
+  font-family: serif;
+  color: rgba(0, 0, 0, 0.673);
+  font-size: 13px;
+}
+.follow {
+  margin: 20px 60px 30px;
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.cart button {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 25px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 60%; /* Moves it down from the top */
+  left: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+.icon {
+  position: absolute;
+  top: 54%; /* Moves it down from the top */
+  right: 15%;
+}
+.icon .bi{
+  color: aliceblue;
+}
